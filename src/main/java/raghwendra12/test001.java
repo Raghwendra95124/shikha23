@@ -8,6 +8,6 @@ public class test001 {
     public static void main(String[] args) {
         ChromiumDriver driver = new ChromeDriver();
         driver.get("https://www.emedicoz.com/");
-
+         driver.quit();
     }
 }
