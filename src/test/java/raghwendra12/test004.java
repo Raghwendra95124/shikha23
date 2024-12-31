@@ -18,7 +18,7 @@ public class test004 {
 
         }else {Assert.assertTrue(false);
         }
-//driver.quit();
+driver.quit();
 
     }
 }
