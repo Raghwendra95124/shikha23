@@ -12,7 +12,11 @@ import org.testng.annotations.Test;
 public class test008 {
     @Description("Verify that with invalid email, pass, error message is shown on the app.vwo.com")
     @Test
+
 public void testemedicozlogin(){
+
+//    public static void main(String[] args) {
+
 
         EdgeOptions edgeOptions = new EdgeOptions();
         edgeOptions.addArguments("--incognito");
